@@ -10,7 +10,6 @@ def infoRekruto(request):
     list_get_query = {
         'name': name,
         'message': message,
-        'start_message': start_message,
     }
     template = 'main/index.html'
     return render(request, template, list_get_query)
